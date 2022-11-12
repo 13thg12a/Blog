@@ -15,3 +15,6 @@
     <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="tranquang-email" />
   </a>
 </div>
+<p align='center'>
+<img src="https://activity-graph.herokuapp.com/graph?username=VuAnhDio&theme=react-dark&hide_border=true">
+<p>
