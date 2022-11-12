@@ -1,6 +1,7 @@
 ![banner](https://user-images.githubusercontent.com/117824221/201148089-ab58d387-66cf-47b3-9c37-1f15a54143a6.png)
-
+<p align="center"><b>-------------------------------------------------------------------------------------------------------------------------------------------------------------</b></p>
 <div align="center">
+  <p align="center"><b>You Can Reach Me At 😄</b></p>
   <a href="https://www.facebook.com/vuanh.dio.2" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="tranquang-facebook" />
   </a>
@@ -14,6 +15,8 @@
     <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="tranquang-email" />
   </a>
 </div>
+<p align="center"><b>-------------------------------------------------------------------------------------------------------------------------------------------------------------</b></p>
 <p align='center'>
+  <p align="center"><b> GitHub Contributions </b></p>
 <img src="https://activity-graph.herokuapp.com/graph?username=VuAnhDio&theme=react-dark&hide_border=true">
 <p>
