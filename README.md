@@ -1,4 +1,5 @@
 ![banner](https://user-images.githubusercontent.com/117824221/201148089-ab58d387-66cf-47b3-9c37-1f15a54143a6.png)
+![github-contribution-grid-snake](https://user-images.githubusercontent.com/117824221/201459895-c485d08b-c5bf-403c-b49e-7189c979da67.svg)
 
 <div align="center">
   <a href="https://www.facebook.com/vuanh.dio.2" target="blank">
