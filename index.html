@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disnext</title>
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700&amp;display=swap">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+    <link rel="stylesheet" href="brain/css/clock-countdowm.css">
+
+
+    <link rel="stylesheet" href="brain/css/bootstrap.min.css">
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="brain/css/swiper-bundle.min.css">
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="brain/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="brain/css/gallery.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="brain/css/product.css">
+    <link rel="stylesheet" href="brain/css/add-to-cart.css">
+    <link rel="stylesheet" href="brain/css/listPage.css">
+    <link rel="stylesheet" href="brain/css/login.css">
+</head>
+
+<body class="body-fixed">
+    <!-- start of header  -->
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="brain/images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="main-navigation">
+                        <button class="menu-toggle"><span></span><span></span></button>
+                        <nav class="header-menu">
+                            <ul class="menu food-nav-menu">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#category">Category</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header-right">
+                            <form action="#" class="header-search-form for-des">
+                                <input type="search" class="form-input" placeholder="Tìm Kiếm...">
+                                <button type="submit">
+                                    <i class="uil uil-search"></i>
+                                </button>
+                            </form>
+                            <a href="#" class="header-btn header-cart">
+                                <i class="uil uil-shopping-cart-alt"></i>
+                            </a>
+                            <li>
+                              <div class="btnLogin-popup">
+                                <a href="#" class=" header-btn">
+                                  <i class="uil uil-user"></i></a>
+                              </div>
+                                <!-- <ul class="sub-users">
+                                  <li><a href="">Login</a></li>
+                                  <li><a href="">Logout</a></li>
+                                </ul> -->
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <section class="login-boxs" >
+      <div class="wrapper">
+        <div class="icon-close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        
+        <div class="login-box login">
+          
+            <h2>Login</h2>
+            <form>
+              <div class="user-box">
+                <input type="text" name="" required="">
+                <label>Username</label>
+              </div>
+              <div class="user-box">
+                <input type="password" name="" required="">
+                <label>Password</label>
+              </div>
+              <div class="signout-a login-register" style="color: white; font-size: 15px;">
+                You don't have an account? <a href="#" class="register-Link"> Register</a>
+              </div>
+              <button class="custom-btn btn-9">Submit</button>
+              </a>
+            </form>
+          </div>
+  
+  
+          
+          <div class="login-box register">
+          
+            <h2><Label>Register</Label></h2>
+            <form>
+              <div class="user-box">
+                <input type="text" name="" required="">
+                <label>Username</label>
+              </div>
+              <div class="user-box">
+                <input type="text" name="" required="">
+                <label>Email</label>
+              </div>
+              <div class="user-box">
+                <input type="text" name="" required="">
+                <label>Password</label>
+              </div>
+              <div class="signout-a login-register" style="color: white; font-size: 15px;">
+                You already have an account? <a href="#" class="login-Link"> Login</a>
+              </div>
+              <button class="custom-btn btn-9">Submit</button>
+              </a>
+            </form>
+          </div>
+      </div>
+    </section>
+    <!-- header ends  -->
+
+    <div id="viewport">
+        <div id="js-scroll-content">
+            <section class="main-banner" id="home" style="background-image: url(brain/images/backgound-main.png);">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner-text">
+                                    <h1 class="h1-title">
+                                        Welcome to<br>
+                                        Our <span>Destin</span>
+                                        Ecommerce.
+                                    </h1>
+                                    <p>This is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eius
+                                        vel tempore consectetur nesciunt? Nam eius tenetur recusandae optio aperiam.</p>
+                                    <div class="banner-btn mt-4">
+                                        <a href="#category" class="sec-btn">Check our Category</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banner-img-wp">
+                                    <div class="banner-img" style="background-image: url(brain/images/banner.png);">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+
+            
+
+            <br><br>
+
+            <!-- lash sale -->
+            <section class="brands-sec">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <div class="brand-title mb-5 displays">
+                              <h5 class="h5-title" style="color:rgb(237, 42, 42)"><i class="fa-solid fa-f"></i><i class="fa-solid fa-bolt"></i><i class="fa-solid fa-a"></i><i class="fa-solid fa-s"></i><i class="fa-solid fa-h"></i> <i class="fa-solid fa-s"></i><i class="fa-solid fa-a"></i><i class="fa-solid fa-bolt"></i><i class="fa-solid fa-e"></i> <i class="fa-sharp fa-solid fa-fire"></i>
+                           </h5>
+                           <div class="clock h5-title rest"></div>
+                          </div>
+                          <div class="brands-row">
+                              <div class="brands-box">
+                                <img src="brain/images/catest/fl-aokhoaccaro.png" alt="">
+                                <h2>Name Product</h2>
+                                <div class="price-products">
+                                  <h2 style="color: rgb(69, 68, 68);font-size: 20px;"><del>$100</del></h2>
+                                  <h2 style="color: rgb(221, 57, 57);padding-left:10px;;"> $43</h2>
+                                </div>
+                                <h2 style="background-color: rgb(251, 72, 72);color: azure;border-radius: 20px;font-size: 18px;"> 
+                                  bán chạy <i class="fa-sharp fa-solid fa-fire"></i></h2>
+                              </div>
+                              <div class="brands-box">
+                                <img src="brain/images/catest/fl-dongho.png" alt="">
+                                <h2>Name Product</h2>
+                                <div class="price-products">
+                                  <h2 style="color: rgb(69, 68, 68);font-size: 20px;"><del>$100</del></h2>
+                                  <h2 style="color: rgb(221, 57, 57);padding-left:10px;;"> $43</h2>
+                                </div>
+                                <h2 style="background-color: rgb(251, 72, 72);color: azure;border-radius: 20px;font-size: 18px;"> 
+                                  bán chạy <i class="fa-sharp fa-solid fa-fire"></i></h2>
+                              </div>
+                              <div class="brands-box">
+                                <img src="brain/images/catest/fl-giaynu.png"alt="">
+                                <h2>Name Product</h2>
+                                <div class="price-products">
+                                  <h2 style="color: rgb(69, 68, 68);font-size: 20px;"><del>$100</del></h2>
+                                  <h2 style="color: rgb(221, 57, 57);padding-left:10px;;"> $43</h2>
+                                </div>
+                                <h2 style="background-color: rgb(251, 72, 72);color: azure;border-radius: 20px;font-size: 18px;"> 
+                                  bán chạy <i class="fa-sharp fa-solid fa-fire"></i></h2>
+                              </div>
+                              <div class="brands-box">
+                                <img src="brain/images/catest/fl-kemche.png"alt="">
+                                <h2>Name Product</h2>
+                                <div class="price-products">
+                                  <h2 style="color: rgb(69, 68, 68);font-size: 20px;"><del>$100</del></h2>
+                                  <h2 style="color: rgb(221, 57, 57);padding-left:10px;;"> $43</h2>
+                                </div>
+                                <h2 style="background-color: rgb(251, 72, 72);color: azure;border-radius: 20px;font-size: 18px;"> 
+                                  bán chạy <i class="fa-sharp fa-solid fa-fire"></i></h2>
+                              </div>
+                              <div class="brands-box">
+                                <img src="brain/images/catest/fl-non.png" alt="">
+                                <h2>Name Product</h2>
+                                <div class="price-products">
+                                  <h2 style="color: rgb(69, 68, 68);font-size: 20px;"><del>$100</del></h2>
+                                  <h2 style="color: rgb(221, 57, 57);padding-left:10px;;"> $43</h2>
+                                </div>
+                                <h2 style="background-color: rgb(251, 72, 72);color: azure;border-radius: 20px;font-size: 18px;"> 
+                                  bán chạy <i class="fa-sharp fa-solid fa-fire"></i></h2>
+                              </div>
+                              <div class="brands-box">
+                                <img src="brain/images/catest/fl-quatmini.png" alt="">
+                                <h2>Name Product</h2>
+                                <div class="price-products">
+                                  <h2 style="color: rgb(69, 68, 68);font-size: 20px;"><del>$100</del></h2>
+                                  <h2 style="color: rgb(221, 57, 57);padding-left:10px;;"> $43</h2>
+                                </div>
+                                <h2 style="background-color: rgb(251, 72, 72);color: azure;border-radius: 20px;font-size: 18px;"> 
+                                  bán chạy <i class="fa-sharp fa-solid fa-fire"></i></h2>
+                              </div>
+                              
+                              
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+          </section>
+
+
+          <!-- endow -->
+          <section class="testimonials section bg-light" style="background-image: url(brain/images/backgound-main.png)";>
+            <div class="sec-wp">
+                <div class="container">
+                    <div class="row">
+                      <div class="brand-title mb-5">
+                        <h5 class="h5-title" style="color:rgb(237, 42, 42)">hot products  </h5>
+                    </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="testimonials-img">
+                                <img src="brain/images/gallery/a0.png" alt="">
+                            </div>
+                            <h3 class="h3-title">
+                              CLUVENS SCORPION
+                          </h3>
+                            <p>Cluvens Scorpion is designed based on the 
+                              model of a scorpion, creating a very unique shape for this 
+                              gaming booth. Overall, this cockpit is made from high-grade steel
+                               material with electrostatic paint, making it absolutely sure. In addition, 
+                               the leg details simulate quite accurately the shape of a scorpion</p>
+                        
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="testimonials-box">
+                                        <div class="testimonials-box-text">
+                                            <h3 class="h3-title">
+                                                <img src="brain/images/gallery/a1.png">
+                                            </h3>
+                                            <h3 class="h3-title">
+                                              Oppo Find N2 FLIP
+                                          </h3>
+                                            <p>It is expected to be a phone that many technology followers are interested in when it has an eye-catching design and impressive screen.</p>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-sm-6">
+                                    <div class="testimonials-box">
+                                        <div class="testimonials-box-text">
+                                          <h3 class="h3-title">
+                                            Nike Air Force 1
+                                           </h3>
+                                          <p>It is expected that this will be a shoe that many young people are interested in when owning</p>
+                                            <h3 class="h3-title">
+                                                <img src="brain/images/gallery/a2.png">
+                                            </h3>
+                                            
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-sm-6">
+                                    <div class="testimonials-box">
+                                        <div class="testimonials-box-text">
+                                            <h3 class="h3-title">
+                                                <img src="brain/images/gallery/a3.png">
+                                            </h3>
+                                            <h3 class="h3-title">
+                                              Apple Watch SE 2
+                                          </h3>
+                                            <p>Dynamic design, powerful sensors provide full health information, support effective training, outstanding performance and always connected.</p>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-sm-6">
+                                    <div class="testimonials-box">
+                                        <div class="testimonials-box-text">
+                                          <h3 class="h3-title">
+                                            Make It Tee
+                                        </h3>
+                                        <p>Dynamic design, cool fabric, this shirt will definitely be the right choice this summer</p>
+                                            <h3 class="h3-title">
+                                                <img src="brain/images/gallery/a4.png">
+                                            </h3>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                  </div>
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br><br>
+
+
+
+
+
+        <!-- MOST SEARCHED -->
+          <section class="brands-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="brand-title mb-5">
+                            <h5 class="h5-title" style="color:rgb(237, 42, 42)">most searched  <i class="fa-solid fa-bell fa-shake"></i> </h5>
+                        </div>
+                        <div class="brands-row">
+                            <div class="brands-box">
+                              <img src="brain/images/catest/sonkem.png" alt="">
+                              <h2>Matte Lipstick</h2>
+                            </div>
+                            <div class="brands-box">
+                              <img src="brain/images/catest/oplung.png" alt="">
+                              <h2>Bumper</h2>
+                            </div>
+                            <div class="brands-box">
+                              <img src="brain/images/catest/balo.png" alt="">
+                              <h2>Balo</h2>
+                            </div>
+                            <div class="brands-box">
+                              <img src="brain/images/catest/butkemi.png" alt="">
+                              <h2>Eye Liner</h2>
+                            </div>
+                            <div class="brands-box">
+                              <img src="brain/images/catest/aolocal.png" alt="">
+                              <h2>Shirt Local Brand</h2>
+                            </div>
+                            <div class="brands-box">
+                              <img src="brain/images/catest/quanthethaonam.png" alt="">
+                              <h2>Sport Shorts</h2>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+            
+
+
+
+            
+
+            <!--Product-->
+            <section class="container our-menu section bg-light repeat-img" >
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <h2 class="h2-title" id="category"> <span>Category & product</span></h2>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-tab-wp">
+                            <div class="row">
+                                <div class="col-lg-12 m-auto">
+                                    <div class="menu-tab text-center">
+                                        <ul class="filters">
+                                            <div class="filter-active"></div>
+                                            <li class="filter" data-filter=".all, .breakfast, .lunch, .dinner, .giay">
+                                                <img src="" alt="">
+                                                All
+                                            </li>
+                                            <li class="filter" data-filter=".breakfast">
+                                                <img src="" alt="">
+                                                Breakfast
+                                            </li>
+                                            <li class="filter" data-filter=".lunch">
+                                                <img src="" alt="">
+                                                Lunch
+                                            </li>
+                                            <li class="filter" data-filter=".dinner">
+                                                <img src="" alt="">
+                                                Dinner
+                                            </li>
+                                            <li class="filter" data-filter=".dinner">
+                                              <img src="" alt="">
+                                              Dinner
+                                            </li>
+                                            <li class="filter" data-filter=".dinner">
+                                              <img src="" alt="">
+                                              Dinner
+                                            </li>
+                                            <li class="filter" data-filter=".dinner">
+                                              <img src="" alt="">
+                                              Dinner
+                                            </li>
+                                            <li class="filter" data-filter=".giay">
+                                              <img src="" alt="">
+                                              Giay
+                                            </li>
+                                            <li class="filter" data-filter=".quan">
+                                              <img src="" alt="">
+                                              Ao
+                                            </li>
+                                          
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-list-row">
+                            <div class="list g-xxl-5 bydefault_show" id="menu-dish">
+                                <div class="item col-3 col-md-6 col-sm-12 dish-box-wp lunch"  data-cat="lunch">
+                                    <div class="product-card">
+                                        <div class="product-card-img">
+                                            <img src="brain/images/a1.png" alt="">
+                                            <img src="brain/images/a1.png" alt="">
+                                        </div>
+                                        <div class="product-card-info">
+                                            <div class="product-btn">
+                                                <a href=""><button class="btn-flat btn-hover btn-shop-now">Buy</button></a>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    <i class="fa-solid fa-heart"></i>
+                                                </button>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    !
+                                                </button>
+                                            </div>
+                                            <div class="product-card-name">
+                                                TRACER SLEEVES BOXY
+                                            </div>
+                                            <div class="product-card-price">
+                                                <span>Evaluate :</span><span class="star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </span>
+                                                <br>
+                                                <span>Price: </span>
+                                                <span class="curr-price">$200</span><br>
+                                                <span> <i class="fa-solid fa-truck"></i> : Hà Nội</span>
+                                            </div>
+                                            <button class="add-to-cart">
+                                                <span>Add to cart</span>
+                                                <svg class="morph" viewBox="0 0 64 13">
+                                                    <path d="M0 12C6 12 17 12 32 12C47.9024 12 58 12 64 12V13H0V12Z" />
+                                                </svg>
+                                                <div class="shirt">
+                                                    <svg class="first" viewBox="0 0 24 24">
+                                                        <path d="M4.99997 3L8.99997 1.5C8.99997 1.5 10.6901 3 12 3C13.3098 3 15 1.5 15 1.5L19 3L22.5 8L19.5 10.5L19 9.5L17.1781 18.6093C17.062 19.1901 16.778 19.7249 16.3351 20.1181C15.4265 20.925 13.7133 22.3147 12 23C10.2868 22.3147 8.57355 20.925 7.66487 20.1181C7.22198 19.7249 6.93798 19.1901 6.82183 18.6093L4.99997 9.5L4.5 10.5L1.5 8L4.99997 3Z" />
+                                                        <g>
+                                                            <path d="M16.3516 9.65383H14.3484V7.83652H14.1742V9.8269H16.5258V7.83652H16.3516V9.65383Z" />
+                                                            <path d="M14.5225 6.01934V7.66357H14.6967V7.4905H14.8186V7.66357H14.9928V6.01934H14.8186V7.31742H14.6967V6.01934H14.5225Z" />
+                                                            <path d="M14.1742 5.67319V7.66357H14.3484V5.84627H16.3516V7.66357H16.5258V5.67319H14.1742Z" />
+                                                            <path d="M15.707 9.48071H15.8812V9.28084L16.0032 9.4807V9.48071H16.1774V7.83648H16.0032V9.14683L15.8812 8.94697V7.83648H15.707V9.48071Z" />
+                                                            <path d="M15.5852 6.01931H15.1149V6.19238H15.5852V6.01931Z" />
+                                                            <path d="M15.707 6.01934V7.66357H15.8812V7.46371L16.0032 7.66357H16.1774V6.01934H16.0032V7.32969L15.8812 7.12984V6.01934H15.707Z" />
+                                                            <path d="M15.411 7.31742H15.2891V6.53857H15.411V7.31742ZM15.1149 7.66357H15.2891V7.4905H15.411V7.66357H15.5852V6.3655H15.1149V7.66357Z" />
+                                                            <path d="M14.5225 8.69756L14.8186 9.18291V9.30763H14.6967V9.13455H14.5225V9.48071H14.9928V9.13456V9.13455L14.6967 8.64917V8.00956H14.8186V8.6586H14.9928V7.83648H14.5225V8.69756Z" />
+                                                            <path d="M15.411 9.30763H15.2891V8.00956H15.411V9.30763ZM15.1149 9.48071H15.5852V7.83648H15.1149V9.48071Z" />
+                                                        </g>
+                                                    </svg>
+                                                    <svg class="second" viewBox="0 0 24 24">
+                                                        <path d="M4.99997 3L8.99997 1.5C8.99997 1.5 10.6901 3 12 3C13.3098 3 15 1.5 15 1.5L19 3L22.5 8L19.5 10.5L19 9.5L17.1781 18.6093C17.062 19.1901 16.778 19.7249 16.3351 20.1181C15.4265 20.925 13.7133 22.3147 12 23C10.2868 22.3147 8.57355 20.925 7.66487 20.1181C7.22198 19.7249 6.93798 19.1901 6.82183 18.6093L4.99997 9.5L4.5 10.5L1.5 8L4.99997 3Z" />
+                                                        <g>
+                                                            <path d="M16.3516 9.65383H14.3484V7.83652H14.1742V9.8269H16.5258V7.83652H16.3516V9.65383Z" />
+                                                            <path d="M14.5225 6.01934V7.66357H14.6967V7.4905H14.8186V7.66357H14.9928V6.01934H14.8186V7.31742H14.6967V6.01934H14.5225Z" />
+                                                            <path d="M14.1742 5.67319V7.66357H14.3484V5.84627H16.3516V7.66357H16.5258V5.67319H14.1742Z" />
+                                                            <path d="M15.707 9.48071H15.8812V9.28084L16.0032 9.4807V9.48071H16.1774V7.83648H16.0032V9.14683L15.8812 8.94697V7.83648H15.707V9.48071Z" />
+                                                            <path d="M15.5852 6.01931H15.1149V6.19238H15.5852V6.01931Z" />
+                                                            <path d="M15.707 6.01934V7.66357H15.8812V7.46371L16.0032 7.66357H16.1774V6.01934H16.0032V7.32969L15.8812 7.12984V6.01934H15.707Z" />
+                                                            <path d="M15.411 7.31742H15.2891V6.53857H15.411V7.31742ZM15.1149 7.66357H15.2891V7.4905H15.411V7.66357H15.5852V6.3655H15.1149V7.66357Z" />
+                                                            <path d="M14.5225 8.69756L14.8186 9.18291V9.30763H14.6967V9.13455H14.5225V9.48071H14.9928V9.13456V9.13455L14.6967 8.64917V8.00956H14.8186V8.6586H14.9928V7.83648H14.5225V8.69756Z" />
+                                                            <path d="M15.411 9.30763H15.2891V8.00956H15.411V9.30763ZM15.1149 9.48071H15.5852V7.83648H15.1149V9.48071Z" />
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                                <div class="cart">
+                                                    <svg viewBox="0 0 36 26">
+                                                        <path d="M1 2.5H6L10 18.5H25.5L28.5 7.5L7.5 7.5" class="shape" />
+                                                        <path d="M11.5 25C12.6046 25 13.5 24.1046 13.5 23C13.5 21.8954 12.6046 21 11.5 21C10.3954 21 9.5 21.8954 9.5 23C9.5 24.1046 10.3954 25 11.5 25Z" class="wheel" />
+                                                        <path d="M24 25C25.1046 25 26 24.1046 26 23C26 21.8954 25.1046 21 24 21C22.8954 21 22 21.8954 22 23C22 24.1046 22.8954 25 24 25Z" class="wheel" />
+                                                        <path d="M14.5 13.5L16.5 15.5L21.5 10.5" class="tick" />
+                                                    </svg>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                      
+                                <div class="item col-3 col-md-6 col-sm-12 dish-box-wp giay"  data-cat="giay">
+                                    <div class="product-card">
+                                        <div class="product-card-img">
+                                            <img src="brain/images/a1.png" alt="">
+                                            <img src="brain/images/a1.png" alt="">
+                                        </div>
+                                        <div class="product-card-info">
+                                            <div class="product-btn">
+                                                <a href=""><button class="btn-flat btn-hover btn-shop-now">Buy</button></a>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    <i class="fa-solid fa-heart"></i>
+                                                </button>
+                                                <button class="btn-flat btn-hover btn-cart-add">
+                                                    !
+                                                </button>
+                                            </div>
+                                            <div class="product-card-name">
+                                                TRACER SLEEVES BOXY
+                                            </div>
+                                            <div class="product-card-price">
+                                                <span>Evaluate :</span><span class="star">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </span>
+                                                <br>
+                                                <span>Price: </span>
+                                                <span class="curr-price">$200</span><br>
+                                                <span> <i class="fa-solid fa-truck"></i> : Hà Nội</span>
+                                            </div>
+                                            <button class="add-to-cart">
+                                                <span>Add to cart</span>
+                                                <svg class="morph" viewBox="0 0 64 13">
+                                                    <path d="M0 12C6 12 17 12 32 12C47.9024 12 58 12 64 12V13H0V12Z" />
+                                                </svg>
+                                                <div class="shirt">
+                                                    <svg class="first" viewBox="0 0 24 24">
+                                                        <path d="M4.99997 3L8.99997 1.5C8.99997 1.5 10.6901 3 12 3C13.3098 3 15 1.5 15 1.5L19 3L22.5 8L19.5 10.5L19 9.5L17.1781 18.6093C17.062 19.1901 16.778 19.7249 16.3351 20.1181C15.4265 20.925 13.7133 22.3147 12 23C10.2868 22.3147 8.57355 20.925 7.66487 20.1181C7.22198 19.7249 6.93798 19.1901 6.82183 18.6093L4.99997 9.5L4.5 10.5L1.5 8L4.99997 3Z" />
+                                                        <g>
+                                                            <path d="M16.3516 9.65383H14.3484V7.83652H14.1742V9.8269H16.5258V7.83652H16.3516V9.65383Z" />
+                                                            <path d="M14.5225 6.01934V7.66357H14.6967V7.4905H14.8186V7.66357H14.9928V6.01934H14.8186V7.31742H14.6967V6.01934H14.5225Z" />
+                                                            <path d="M14.1742 5.67319V7.66357H14.3484V5.84627H16.3516V7.66357H16.5258V5.67319H14.1742Z" />
+                                                            <path d="M15.707 9.48071H15.8812V9.28084L16.0032 9.4807V9.48071H16.1774V7.83648H16.0032V9.14683L15.8812 8.94697V7.83648H15.707V9.48071Z" />
+                                                            <path d="M15.5852 6.01931H15.1149V6.19238H15.5852V6.01931Z" />
+                                                            <path d="M15.707 6.01934V7.66357H15.8812V7.46371L16.0032 7.66357H16.1774V6.01934H16.0032V7.32969L15.8812 7.12984V6.01934H15.707Z" />
+                                                            <path d="M15.411 7.31742H15.2891V6.53857H15.411V7.31742ZM15.1149 7.66357H15.2891V7.4905H15.411V7.66357H15.5852V6.3655H15.1149V7.66357Z" />
+                                                            <path d="M14.5225 8.69756L14.8186 9.18291V9.30763H14.6967V9.13455H14.5225V9.48071H14.9928V9.13456V9.13455L14.6967 8.64917V8.00956H14.8186V8.6586H14.9928V7.83648H14.5225V8.69756Z" />
+                                                            <path d="M15.411 9.30763H15.2891V8.00956H15.411V9.30763ZM15.1149 9.48071H15.5852V7.83648H15.1149V9.48071Z" />
+                                                        </g>
+                                                    </svg>
+                                                    <svg class="second" viewBox="0 0 24 24">
+                                                        <path d="M4.99997 3L8.99997 1.5C8.99997 1.5 10.6901 3 12 3C13.3098 3 15 1.5 15 1.5L19 3L22.5 8L19.5 10.5L19 9.5L17.1781 18.6093C17.062 19.1901 16.778 19.7249 16.3351 20.1181C15.4265 20.925 13.7133 22.3147 12 23C10.2868 22.3147 8.57355 20.925 7.66487 20.1181C7.22198 19.7249 6.93798 19.1901 6.82183 18.6093L4.99997 9.5L4.5 10.5L1.5 8L4.99997 3Z" />
+                                                        <g>
+                                                            <path d="M16.3516 9.65383H14.3484V7.83652H14.1742V9.8269H16.5258V7.83652H16.3516V9.65383Z" />
+                                                            <path d="M14.5225 6.01934V7.66357H14.6967V7.4905H14.8186V7.66357H14.9928V6.01934H14.8186V7.31742H14.6967V6.01934H14.5225Z" />
+                                                            <path d="M14.1742 5.67319V7.66357H14.3484V5.84627H16.3516V7.66357H16.5258V5.67319H14.1742Z" />
+                                                            <path d="M15.707 9.48071H15.8812V9.28084L16.0032 9.4807V9.48071H16.1774V7.83648H16.0032V9.14683L15.8812 8.94697V7.83648H15.707V9.48071Z" />
+                                                            <path d="M15.5852 6.01931H15.1149V6.19238H15.5852V6.01931Z" />
+                                                            <path d="M15.707 6.01934V7.66357H15.8812V7.46371L16.0032 7.66357H16.1774V6.01934H16.0032V7.32969L15.8812 7.12984V6.01934H15.707Z" />
+                                                            <path d="M15.411 7.31742H15.2891V6.53857H15.411V7.31742ZM15.1149 7.66357H15.2891V7.4905H15.411V7.66357H15.5852V6.3655H15.1149V7.66357Z" />
+                                                            <path d="M14.5225 8.69756L14.8186 9.18291V9.30763H14.6967V9.13455H14.5225V9.48071H14.9928V9.13456V9.13455L14.6967 8.64917V8.00956H14.8186V8.6586H14.9928V7.83648H14.5225V8.69756Z" />
+                                                            <path d="M15.411 9.30763H15.2891V8.00956H15.411V9.30763ZM15.1149 9.48071H15.5852V7.83648H15.1149V9.48071Z" />
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                                <div class="cart">
+                                                    <svg viewBox="0 0 36 26">
+                                                        <path d="M1 2.5H6L10 18.5H25.5L28.5 7.5L7.5 7.5" class="shape" />
+                                                        <path d="M11.5 25C12.6046 25 13.5 24.1046 13.5 23C13.5 21.8954 12.6046 21 11.5 21C10.3954 21 9.5 21.8954 9.5 23C9.5 24.1046 10.3954 25 11.5 25Z" class="wheel" />
+                                                        <path d="M24 25C25.1046 25 26 24.1046 26 23C26 21.8954 25.1046 21 24 21C22.8954 21 22 21.8954 22 23C22 24.1046 22.8954 25 24 25Z" class="wheel" />
+                                                        <path d="M14.5 13.5L16.5 15.5L21.5 10.5" class="tick" />
+                                                    </svg>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+
+
+                <ul class="listPage">
+                  <li class="active">1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+              </ul>
+
+
+            </section>
+            <br><br><br>
+
+            
+            <!--Gallery-->
+            <section >
+              <div class="row">
+                <div class="col-lg-12">
+                    <div class="sec-title text-center mb-5">
+                        <h2 class="h2-title" id="gallery">Gallery</span></h2>
+                    </div>
+                </div>
+              </div>
+
+
+              <div class="wrappers" style="background-image: url(brain/images/backgound-main.png)">
+      
+                  <div class="content">
+                    <div class="bg-shape">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405214/starwars/logo.webp" alt="">
+                    </div>
+                
+                    
+                    <div class="product-img">
+                
+                      <div class="product-img__item" id="img2">
+                        <img src="brain/images/gallery/rogstrix.png" alt="star wars" class="product-img__img">
+                      </div>
+                
+                      <div class="product-img__item" id="img1">
+                        <img src="brain/images/gallery/applew6.png" alt="star wars" class="product-img__img">
+                      </div>
+                
+                      <div class="product-img__item" id="img3">
+                        <img src="brain/images/gallery/rogphone6.png" alt="star wars" class="product-img__img">
+                      </div>
+                
+                      <div class="product-img__item" id="img4">
+                        <img src="brain/images/gallery/air1.png" alt="star wars" class="product-img__img">
+                      </div>
+                
+                
+                    </div>
+                
+                
+                
+                    <div class="product-slider">
+                      <button class="prev disabled">
+                        <span class="icon">
+                          <svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-left"></use></svg>
+                        </span>
+                      </button>
+                      <button class="next">
+                        <span class="icon">
+                          <svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-right"></use></svg>
+                        </span>
+                      </button>
+                
+                      <div class="product-slider__wrp swiper-wrapper">
+                        <div class="product-slider__item swiper-slide" data-target="img3">
+                          <div class="product-slider__card">
+                            <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405215/starwars/item-3-bg.webp" alt="star wars" class="product-slider__cover">
+                            <div class="product-slider__content">
+                              <h1 class="product-slider__title" style="color:aliceblue">
+                                ASUS ROG PHONE 6
+                              </h1>
+                              <span class="product-slider__price">$ 32.499.999 đ</span>
+                              <div class="product-ctr">
+                                <div class="product-labels">
+                                  <div class="product-labels__title">VERSION</div>
+                
+                                  <div class="product-labels__group">
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type6">
+                                      <span class="product-labels__txt">120hz</span>
+                                    </label>
+                
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type6" checked>
+                                      <span class="product-labels__txt">160hz</span>
+                                    </label>
+                                  </div>
+                
+                                  <div class="product-labels__title">SYSTEM</div>
+                
+                                  <div class="product-labels__group">
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type7" checked>
+                                      <span class="product-labels__txt">Performance</span>
+                                    </label>
+                
+                                    
+                                  </div>
+                
+                                </div>
+                
+                                <span class="hr-vertical"></span>
+                
+                                <div class="product-inf">
+                                  <div class="product-inf__percent">
+                                    <div class="product-inf__percent-circle">
+                                      <svg xmlns="" width="100" height="100" viewBox="0 0 100 100">
+                                        <defs>
+                                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="#0c1e2c" stop-opacity="0" />
+                                            <stop offset="100%" stop-color="#cb2240" stop-opacity="1" />
+                                          </linearGradient>
+                                        </defs>
+                                        <circle cx="50" cy="50" r="47" stroke-dasharray="240, 300" stroke="#cb2240" stroke-width="4" fill="none"/>
+                                      </svg>
+                                    </div>
+                                    <div class="product-inf__percent-txt">
+                                      90%
+                                    </div>
+                                  </div>
+                
+                                  <span class="product-inf__title">DURABILITY RATE</span>
+                                </div>
+                
+                              </div>
+                
+                              <div class="product-slider__bottom">
+                                <button class="product-slider__cart">
+                                  Goods Are Coming
+                                </button>
+                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-slider__item swiper-slide" data-target="img4">
+                          <div class="product-slider__card">
+                            <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405223/starwars/item-4-bg.webp" alt="star wars" class="product-slider__cover">
+                            <div class="product-slider__content">
+                              <h1 class="product-slider__title"style="color:aliceblue">
+                                AIR FORCE ONE
+                              </h1>
+                              <span class="product-slider__price">$ 3.233.000 đ</span>
+                              <div class="product-ctr">
+                                <div class="product-labels">
+                                  <div class="product-labels__title">SIZE</div>
+                
+                                  <div class="product-labels__group">
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type5" >
+                                      <span class="product-labels__txt">S</span>
+                                    </label>
+                
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type5" checked>
+                                      <span class="product-labels__txt">M</span>
+                                    </label>
+                
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type5" >
+                                      <span class="product-labels__txt">L</span>
+                                    </label>
+                
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type5" >
+                                      <span class="product-labels__txt">XL</span>
+                                    </label>
+                
+                                  </div>
+                                  <div class="product-labels__title">COLOR</div>
+                
+                                  <div class="product-labels__group">
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type133" checked>
+                                      <span class="product-labels__txt">Silver</span>
+                                    </label>
+                
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type3">
+                                      <span class="product-labels__txt">Black</span>
+                                    </label>
+                                  </div>
+                
+                                </div>
+                
+                                <span class="hr-vertical"></span>
+                
+                                <div class="product-inf">
+                                  <div class="product-inf__percent">
+                                    <div class="product-inf__percent-circle">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                                        <defs>
+                                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="#0c1e2c" stop-opacity="0" />
+                                            <stop offset="100%" stop-color="#cb2240" stop-opacity="1" />
+                                          </linearGradient>
+                                        </defs>
+                                        <circle cx="50" cy="50" r="47" stroke-dasharray="240, 300" stroke="#cb2240" stroke-width="4" fill="none"/>
+                                      </svg>
+                                    </div>
+                                    <div class="product-inf__percent-txt">
+                                      85%
+                                    </div>
+                                  </div>
+                
+                                  <span class="product-inf__title">DURABILITY RATE</span>
+                                </div>
+                
+                              </div>
+                
+                              <div class="product-slider__bottom">
+                                <button class="product-slider__cart">
+                                  Goods Are Coming
+                                </button>
+                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-slider__item swiper-slide" data-target="img1">
+                          <div class="product-slider__card">
+                            <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405222/starwars/item-1-bg.webp" alt="star wars" class="product-slider__cover">
+                            <div class="product-slider__content">
+                              <h1 class="product-slider__title"style="color:aliceblue">
+                                APPLE WATCH 6
+                              </h1>
+                              <span class="product-slider__price">$ 4.772.999 đ</span>
+                              <div class="product-ctr">
+                                <div class="product-labels">
+                                  <div class="product-labels__title">COLOR</div>
+                
+                                  <div class="product-labels__group">
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type13" checked>
+                                      <span class="product-labels__txt">Silver</span>
+                                    </label>
+                
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type3">
+                                      <span class="product-labels__txt">Black</span>
+                                    </label>
+                                  </div>
+                
+                                  <div class="product-labels__title">STYLE</div>
+                                  <div class="product-labels__group">
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type311" checked>
+                                      <span class="product-labels__txt">DX4887-003</span>
+                                    </label>
+                                  </div>
+                
+                                  
+                
+                                </div>
+                                
+                
+                                <span class="hr-vertical"></span>
+                
+                                <div class="product-inf">
+                                  <div class="product-inf__percent">
+                                    <div class="product-inf__percent-circle">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                                        <defs>
+                                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="#0c1e2c" stop-opacity="0" />
+                                            <stop offset="100%" stop-color="#cb2240" stop-opacity="1" />
+                                          </linearGradient>
+                                        </defs>
+                                        <circle cx="50" cy="50" r="47" stroke-dasharray="225, 300" stroke="#cb2240" stroke-width="4" fill="none"/>
+                                      </svg>
+                                    </div>
+                                    <div class="product-inf__percent-txt">
+                                      92%
+                                    </div>
+                                  </div>
+                
+                                  <span class="product-inf__title">DURABILITY</span>
+                                </div>
+                
+                              </div>
+                
+                              <div class="product-slider__bottom">
+                                <button class="product-slider__cart">
+                                  Goods Are Coming
+                                </button>
+                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="product-slider__item swiper-slide" data-target="img2">
+                          <div class="product-slider__card">
+                            <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1536405222/starwars/item-2-bg.webp" alt="star wars" class="product-slider__cover">
+                            <div class="product-slider__content">
+                              <h1 class="product-slider__title"style="color:aliceblue;">
+                                ROG Strix SCAR 16
+                              </h1>
+                              <span class="product-slider__price">$ 87.990.000 ₫</span>
+                              <div class="product-ctr">
+                                <div class="product-labels">
+                                  <div class="product-labels__title">RAM</div>
+                
+                                  <div class="product-labels__group">
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type3">
+                                      <span class="product-labels__txt">16 GB</span>
+                                    </label>
+                
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type3" checked>
+                                      <span class="product-labels__txt">32 GB</span>
+                                    </label>
+                                  </div>
+                
+                                  <div class="product-labels__title">PRODUCT CODE</div>
+                                  <div class="product-labels__group">
+                                    <label class="product-labels__item">
+                                      <input type="radio" class="product-labels__checkbox" name="type31" checked>
+                                      <span class="product-labels__txt">G634JZ-N4029W</span>
+                                    </label>
+                                  </div>
+                
+                                  
+                
+                                </div>
+                
+                                <span class="hr-vertical"></span>
+                
+                                <div class="product-inf">
+                                  <div class="product-inf__percent">
+                                    <div class="product-inf__percent-circle">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                                        <defs>
+                                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="#0c1e2c" stop-opacity="0" />
+                                            <stop offset="100%" stop-color="#cb2240" stop-opacity="1" />
+                                          </linearGradient>
+                                        </defs>
+                                        <circle cx="50" cy="50" r="47" stroke-dasharray="240, 300" stroke="#cb2240" stroke-width="4" fill="none"/>
+                                      </svg>
+                                    </div>
+                                    <div class="product-inf__percent-txt">
+                                      80%
+                                    </div>
+                                  </div>
+                
+                                  <span class="product-inf__title">DURABILITY</span>
+                                </div>
+                
+                              </div>
+                
+                              <div class="product-slider__bottom">
+                                <button class="product-slider__cart">
+                                  Goods Are Coming
+                                </button>
+                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                
+                        
+                
+                        
+                
+                      </div>
+                    </div>
+                
+                  </div>
+                
+                  
+                
+                </div>
+                <svg class="hidden" hidden>
+                  <symbol id="icon-arrow-left" viewBox="0 0 32 32">
+                    <path d="M0.704 17.696l9.856 9.856c0.896 0.896 2.432 0.896 3.328 0s0.896-2.432 0-3.328l-5.792-5.856h21.568c1.312 0 2.368-1.056 2.368-2.368s-1.056-2.368-2.368-2.368h-21.568l5.824-5.824c0.896-0.896 0.896-2.432 0-3.328-0.48-0.48-1.088-0.704-1.696-0.704s-1.216 0.224-1.696 0.704l-9.824 9.824c-0.448 0.448-0.704 1.056-0.704 1.696s0.224 1.248 0.704 1.696z"></path>
+                  </symbol>
+                  <symbol id="icon-arrow-right" viewBox="0 0 32 32">
+                    <path d="M31.296 14.336l-9.888-9.888c-0.896-0.896-2.432-0.896-3.328 0s-0.896 2.432 0 3.328l5.824 5.856h-21.536c-1.312 0-2.368 1.056-2.368 2.368s1.056 2.368 2.368 2.368h21.568l-5.856 5.824c-0.896 0.896-0.896 2.432 0 3.328 0.48 0.48 1.088 0.704 1.696 0.704s1.216-0.224 1.696-0.704l9.824-9.824c0.448-0.448 0.704-1.056 0.704-1.696s-0.224-1.248-0.704-1.664z"></path>
+                  </symbol>
+                </svg>
+          </section>
+           
+
+
+
+            <!-- footer starts  -->
+            <footer class="site-footer" id="contact" style="background-image: url(brain/images/backgound-main.png);">
+                <div class="top-footer section">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="footer-info">
+                                        <div class="footer-logo">
+                                            <a href="index.html">
+                                                <img src="brain/images/logo.png" alt="">
+                                            </a>
+                                        </div>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, tenetur.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="footer-flex-box">
+                                        <div class="footer-table-info">
+                                            <h3 class="h3-title">open hours</h3>
+                                            <ul>
+                                                <li><i class="uil uil-clock"></i> Mon-Thurs : 9am - 22pm</li>
+                                                <li><i class="uil uil-clock"></i> Fri-Sun : 11am - 22pm</li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu food-nav-menu">
+                                            <h3 class="h3-title">Links</h3>
+                                            <ul class="column-2">
+                                                <li>
+                                                    <a href="#home" class="footer-active-menu">Home</a>
+                                                </li>
+                                                <li><a href="#about">About</a></li>
+                                                <li><a href="#menu">Menu</a></li>
+                                                <li><a href="#gallery">Gallery</a></li>
+                                                <li><a href="#blog">Blog</a></li>
+                                                <li><a href="#contact">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu">
+                                            <h3 class="h3-title">Company</h3>
+                                            <ul>
+                                                <li><a href="#">Terms & Conditions</a></li>
+                                                <li><a href="#">Privacy Policy</a></li>
+                                                <li><a href="#">Cookie Policy</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <div class="copyright-text">
+                                    <p>Copyright &copy; 2021 <span class="name">TechieCoder.</span>All Rights Reserved.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="scrolltop"><i class="uil uil-angle-up"></i></button>
+                    </div>
+                </div>
+            </footer>
+
+
+
+        </div>
+    </div>
+
+
+
+    
+
+    <script src="brain/js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="brain/js/bootstrap.min.js"></script>
+    <script src="brain/js/popper.min.js"></script>
+
+    <!-- fontawesome  -->
+    <script src="brain/js/font-awesome.min.js"></script>
+
+    <!-- swiper slider  -->
+    <script src="brain/js/swiper-bundle.min.js"></script>
+
+    <!-- mixitup -- filter  -->
+    <script src="brain/js/jquery.mixitup.min.js"></script>
+
+    <!-- fancy box  -->
+    <script src="brain/js/jquery.fancybox.min.js"></script>
+
+    <!-- parallax  -->
+    <script src="brain/js/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin3.min.js"></script>
+    <script src="brain/js/add-to-cart.js"></script>
+    <!-- gsap  -->
+    <script src="brain/js/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+    <script src="brain/js/swipret-hot.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
+    <script src="brain/js/clock-countdown.js"></script>
+    <script src="brain/js/login.js"></script>
+
+    <!-- scroll trigger  -->
+    <script src="brain/js/listPage.js"></script>
+    <script src="brain/js/ScrollTrigger.min.js"></script>
+    <!-- scroll to plugin  -->
+    <script src="brain/js/ScrollToPlugin.min.js"></script>
+    <!-- rellax  -->
+    <script src="brain/js/click-main.js"></script>
+    <!-- smooth scroll  -->
+    <script src="brain/js/smooth-scroll.js"></script>
+    <!-- custom js  -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
