@@ -20,5 +20,5 @@
 <br>
 <p align='center'>
   <p align="center"><b> GitHub Contributions </b></p>
-<img src="https://activity-graph.herokuapp.com/graph?username=VuAnhDio&theme=react-dark&hide_border=true">
+
 <p>
