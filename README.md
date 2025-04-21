@@ -1,6 +1,6 @@
+<p align="center"><b>You Can Reach Me At 😄</b></p>
 <p align="center"><b> -------------------o0o-------------------</b></p>
 <div align="center">
-  <p align="center"><b>You Can Reach Me At 😄</b></p>
   <a href="https://www.facebook.com/vuanh.dio.2" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="tranquang-facebook" />
   </a>
